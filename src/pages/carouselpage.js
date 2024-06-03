@@ -44,32 +44,32 @@ return (
         <main className="carousel" id="carousel">
             <div className={"item pos" + currentButton + ""}>
             <div className="head_card"></div>
-            <img className="body_card" src={Imagen1}/>
+            <img className="body_card" src={Imagen1} alt="imagenUno"/>
             <div className="footer_card"></div>
             </div>
             <div className={"item pos" + currentButton + ""}>
             <div className="head_card"></div>
-            <img className="body_card" src={Imagen2}/>
+            <img className="body_card" src={Imagen2} alt="imagenDos"/>
             <div className="footer_card"></div>
             </div>
             <div className={"item pos" + currentButton + ""}>
             <div className="head_card"></div>
-            <img className="body_card" src={Imagen3}/>
+            <img className="body_card" src={Imagen3} alt="imagenTres"/>
             <div className="footer_card"></div>
             </div>
             <div className={"item pos" + currentButton + ""}>
             <div className="head_card"></div>
-            <img className="body_card" src={Imagen4}/>
+            <img className="body_card" src={Imagen4} alt="imagenCuatro"/>
             <div className="footer_card"></div>
             </div>
             <div className={"item pos" + currentButton + ""}>
             <div className="head_card"></div>
-            <img className="body_card" src={Imagen5}/>
+            <img className="body_card" src={Imagen5} alt="imagenCinco"/>
             <div className="footer_card"></div>
             </div>
             <div className={"item pos" + currentButton + ""}>
             <div className="head_card"></div>
-            <img className="body_card" src={Imagen6}/>
+            <img className="body_card" src={Imagen6} alt="imagenSeis"/>
             <div className="footer_card"></div>
             </div>
         </main>
