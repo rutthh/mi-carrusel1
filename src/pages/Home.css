@@ -1,0 +1,63 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+.ambar-container {
+    position: relative; 
+    text-align: center;
+}
+
+.ambar {
+    font-family: 'Playfair Display', serif;
+    font-size: 400px;
+    color: darkgoldenrod;
+    text-shadow: 300px 300px 600px rgba(0, 0, 0, 0.5);
+    -webkit-text-stroke: 2px black;
+}
+
+.welcome-container {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: darkgoldenrod;
+    padding: 1px;
+    width: 90%;
+}
+
+.welcome-link {
+    font-family: "Sevillana", cursive;
+    font-size: 1.5rem;
+    color: darkgoldenrod;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.welcome-link:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .ambar-container h1 {
+    font-size: 2.5em;
+    }
+
+    .welcome-container p {
+    font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .ambar-container h1 {
+    font-size: 2em;
+    }
+
+    .welcome-container p {
+    font-size: 1em;
+    }
+}
